@@ -45,7 +45,12 @@ class StreamCreate extends React.Component {
 
     onSubmit = (formValues) => {
         // console.log(formValues) // Two values were passed: title and description
-        this.props.createNewStream(formValues); // mapDispatchToProps
+
+        // On submit, send action 'createNewStream' to action creator.
+        // This component does not take in any props, so mapStateToProps = null,
+        // and mapDispatchToProps is { createNewStream: createStream }
+        // The action creator creates a new entry in the db.
+        this.props.createNewStream(formValues); 
     }
 
     render() {
@@ -91,7 +96,7 @@ const validate = (formValues) => {
 }
 
 // To wire up both 'connect' and 'reduxForm' to our class StreamCreate,
-// separate into two parts:
+// separate the wrappers into two:
 const formWrapped = reduxForm({
     form: 'streamCreate',
     validate
