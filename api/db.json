@@ -1,0 +1,39 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream!",
+      "id": 1
+    },
+    {
+      "title": "stream 2",
+      "description": "nice stream 2",
+      "id": 2
+    },
+    {
+      "title": "stream 2",
+      "description": "nice stream 2",
+      "id": 3
+    },
+    {
+      "title": "stream 3",
+      "description": "nice stream 3",
+      "id": 4
+    },
+    {
+      "title": "Madam Butterfly",
+      "description": "Opera",
+      "id": 5
+    },
+    {
+      "title": "Papillon",
+      "description": "Based on a book of the same title",
+      "id": 6
+    },
+    {
+      "title": "Dmitri in snow",
+      "description": "When he was 8 years old",
+      "id": 7
+    }
+  ]
+}
