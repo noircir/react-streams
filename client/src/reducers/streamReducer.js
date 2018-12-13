@@ -11,7 +11,7 @@ export default (state = {}, action) => {
     switch (action.type) {
         case CREATE_STREAM:
             // Here is where keys are created for stream objects. 
-            // (The stream objects are kept in the db without keys). 
+            // (The stream objects are kept in the db as an array of objects without keys). 
 
             // key interpolation
             return { ...state, [action.payload.id]: action.payload };
@@ -33,7 +33,7 @@ export default (state = {}, action) => {
             // where the keys are the ids taken from each array element
             // and the values are the same array elements (objects).
 
-            // console.log(action.payload) // array of objects
+            // console.log(action.payload) // an array of objects
             // console.log(...action.payload) // objects by themselves, one at a time
             // one object of objects, with keys from the payload's ids
             // console.log(_.mapKeys(action.payload, 'id')) 

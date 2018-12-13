@@ -1,31 +1,22 @@
 {
   "streams": [
     {
-      "title": "Papillon",
-      "description": "Based on a book of the same title",
-      "id": 6
-    },
-    {
-      "title": "nice",
-      "description": "nice",
+      "title": "nice22",
+      "description": "nice22",
       "userId": "103444829649842092940",
       "id": 18
     },
     {
-      "title": "tttt44",
-      "description": "kkk44",
+      "title": "new stream",
+      "description": "ggjkjjjjjjjj",
       "userId": "103444829649842092940",
-      "id": 19
+      "id": 22
     },
     {
-      "title": "new stream89",
-      "description": "great!89",
-      "id": 20
-    },
-    {
-      "title": "Camomile77",
-      "description": "laksdfsfksnf77",
-      "id": 21
+      "title": "galaxy and abby",
+      "description": "two cats",
+      "userId": "103444829649842092940",
+      "id": 23
     }
   ]
 }
